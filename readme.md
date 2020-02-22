@@ -1,3 +1,3 @@
 # Repository for class project
 
-This readme is a placeholder that should be replaced
+npm start to start the file
