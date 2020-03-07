@@ -1,0 +1,31 @@
+    .App {
+        text-align: center;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 10vh;
+        background: rgb(230, 104, 125);
+        color: bisque;
+        padding-left: 60px;
+    }
+    
+    .navlinks {
+        width: 10%;
+        display: flexbox;
+        justify-content: right;
+        align-items: right;
+        list-style: none;
+    }
+    
+    .header {
+        font: Impact;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
