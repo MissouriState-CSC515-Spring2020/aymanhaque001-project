@@ -1,23 +1,5 @@
 {
-<<<<<<< Updated upstream
   "name": "rollup-starter-app",
-=======
-  "name": "react_spa",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.9.9",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "axios": "^0.19.2",
-    "date-fns": "^1.30.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0"
-  },
->>>>>>> Stashed changes
   "devDependencies": {
     "npm-run-all": "^4.1.5",
     "rollup": "^1.16.2",
@@ -25,7 +7,6 @@
     "rollup-plugin-node-resolve": "^5.1.0",
     "rollup-plugin-terser": "^5.0.0",
     "serve": "^11.0.2"
-
   },
   "dependencies": {
     "date-fns": "^1.30.1"
@@ -35,16 +16,5 @@
     "watch": "rollup -c -w",
     "dev": "npm-run-all --parallel start watch",
     "start": "serve public"
-  },
-  "description": "This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.",
-  "version": "1.0.0",
-  "main": "rollup.config.js",
-  "repository": {
-    "type": "git",
-    "url": "\u0016\u0016https://github.com/aymanhaque001/aymanhaque001-project.git"
-  },
-  "author": "Ayman Haque",
-  "license": "UNLICENSED",
-  "private": true,
-  "type": "module"
+  }
 }
